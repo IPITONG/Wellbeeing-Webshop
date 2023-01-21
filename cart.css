@@ -141,10 +141,6 @@
     color: #fff;
     display: none;
   }
-  h2{
-    background-color: #182024;
-  }
-  
   .header .navbar #close-navbar:hover {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -270,11 +266,7 @@
     }
   }
   .col-md-7{
-    padding-bottom: 194px;
-    padding-top: 30px;
-  }
-  .row{
-    padding-bottom: 194px;
+    padding-bottom: 120px;
     padding-top: 30px;
   }
   

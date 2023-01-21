@@ -108,7 +108,8 @@ if (isset($_POST['remove'])) {
 
                 </div>
             </div>
-            <div class="col-md-4 offset-md-1 border rounded mt-5 bg-white h-25">
+            <div class="col-md-4 offset-md-1 border rounded mt-5 bg-white h-25 padding-bottom: 194px;
+    padding-top: 30px;">
 
                 <div class="pt-4">
                     <h1>Bestellingdetails</h1>
