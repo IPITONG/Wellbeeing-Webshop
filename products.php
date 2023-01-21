@@ -10,7 +10,7 @@ function products($productname, $productprice, $productimage, $productid)
                 <span class=\"discount\">-10%</span>
                 <div class=\"image\">
                     <img src=\"$productimage\">
-                    <div class=\"iconss\">
+                    <div class=\"icons\">
                         <button class=\"fas fa-heart\"></button>
                         <button class=\"cart-btn\" name=\"add\">Toevoegen</button>
                         <input type='hidden' name='product_id' value='$productid'>
