@@ -266,7 +266,7 @@ span {
 .cart-btn{
   height: 5rem;
   line-height: 5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   width: 50%;
   background: #11181A;
   color: #fff;
@@ -274,7 +274,7 @@ span {
 .cart-btn:hover{
   height: 5rem;
   line-height: 5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   width: 50%;
   background: #ffc72c;
   color: #fff;
@@ -303,7 +303,7 @@ span {
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  width: 50%;
+  width: 80%;
   background: #ffc72c;
   color: #fff;
 }
@@ -311,7 +311,7 @@ span {
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  width: 50%;
+  width: 80%;
   background: #11181A;
   color: #fff;
 }
@@ -397,7 +397,7 @@ span {
 .products .box-container .box .image .icons .cart-btn{
   border-left: .1rem solid #fff;
   border-right: .1rem solid #fff;
-  width: 200rem;
+  width: 81rem;
   text-transform: capitalize;
 }
 
