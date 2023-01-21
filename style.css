@@ -266,7 +266,7 @@ span {
 .cart-btn{
   height: 5rem;
   line-height: 5rem;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   width: 50%;
   background: #11181A;
   color: #fff;
@@ -274,7 +274,7 @@ span {
 .cart-btn:hover{
   height: 5rem;
   line-height: 5rem;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   width: 50%;
   background: #ffc72c;
   color: #fff;
