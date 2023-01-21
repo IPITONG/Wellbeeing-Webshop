@@ -6,43 +6,53 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Winkelmand</title>
+    <title>Bedankt!</title>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
-
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-light">
     <header>
-        <img class="logo"
-            src="https://blightningpower.github.io/Wellbeeing_webshop/img/Logo%20wellbeeing%207.0%20-%20cut.png"
-            alt="Wellbeeinglogo">
-        <h1 class="WellbeeingHeaderTitle"><span class="WellbeeingTitleWord">Wellbeeing</span>Webshop</h1>
-        <!--Navigation searchbar-->
-        <div class="searchbar">
-            <label>
-                <input class="searchBarfield" type="text" placeholder="Zoeken..">
-                <img class="searchBarIcon" src="https://i484476.hera.fhict.nl/OPP_Webshop/Public/img/searchbarIcon.png"
-                    alt="searchBarIcon">
-            </label>
-        </div>
+    <head>
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-16x16.png">
+    <title> Wellbeeing Webshop</title>
+    <script src="https://kit.fontawesome.com/4b14647f69.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
 
-        <div class="navbarButton">
-            <a href="../html/index.html">Website</a>
-            <a href="homepage.php">Webshop</a>
-            <a href="signUp.php">Aanmelden</a>
-            <a href="logIn.php">Inloggen</a>
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+        <img class="headerimage" src="img/Logo wellbeeing 7.0 - cut.png">
+        <a href="#" class="logo"> Well<span>bee</span>ing Webshop.</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html" target="_blank">WEBSITE</a>
+            <a href="#home">HOME</a>
+            <a href="#about">OVER ONS</a>
+            <a href="#products">PRODUCTEN</a>
+            <a href="#review">REVIEWS</a>
+            <a href="#contact">CONTACT</a>
+
+        </nav>
+
+        <div class="icons">
+            <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
         </div>
-        <a href="cart.php" class="shoppingCartButton"><img class="shoppingCartImage"
-                src="https://i484476.hera.fhict.nl/OPP_Webshop/Public/img/shoppingCartIcon.png" alt="ShoppingCart" />
-            <h5 class="px-5 cart">
-                <i class="fas fa-shopping-cart"></i> Winkelmand
+    </header>
                 <?php
 
                 if (isset($_SESSION['cart'])) {
@@ -55,13 +65,6 @@
                 ?>
             </h5>
         </a>
-        <div class="navHeader">
-            <a href="#">Alle producten</a>
-            <a href="#">Smart Beehives</a>
-            <a href="#">Bloemenzaden</a>
-            <a href="#">Honing</a>
-        </div>
-    </header>
     <br>
     <br>
     <br>
