@@ -98,6 +98,17 @@
         <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
 
         <img src="img/payment.png" alt="">
+        <script>
+        let navbar = document.querySelector('.header .navbar')
 
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.add('active');
+        }
+
+        document.querySelector('#close-navbar').onclick = () => {
+            navbar.classList.remove('active');
+        };
+
+    </script>
 
     </section>
