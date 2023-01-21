@@ -72,3 +72,32 @@
     <br>
     <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
 </body>
+
+<section class="footer">
+
+        <div class="box-container">
+            <div class="scroll-down" onclick="scroll"></div>
+            <div class="box">
+                <h3> </i> Wellbeeing </h3>
+                <p>Bavli, Stan, Allert, Daniel, Semmy.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>navigatie links</h3>
+                <a href="#home" class="link">home</a>
+                <a href="#about" class="link">over ons</a>
+                <a href="#products" class="link">producten</a>
+                <a href="#contact" class="link">contact</a>
+            </div>
+        </div>
+        <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
+
+        <img src="img/payment.png" alt="">
+
+
+    </section>
