@@ -76,9 +76,9 @@ if (isset($_POST['remove'])) {
     <!-- header section ends -->
 
     </header>
+    <h2> <br>
+    <br></h2>
     <div class="container-fluid">
-        <br>
-        <br>
         <div class="row px-5">
             <div class="col-md-7">
                 <div class="shopping-cart">
@@ -141,13 +141,12 @@ if (isset($_POST['remove'])) {
                             ?></h6>
                             <br>
                             <a href="thankyou.php" button type="submit" class="btn btn-success mx-2" name="bestellen">Bestellen</button></a>
-                            <br>
-                            <br>
+                            <h2> <br>
+    <br></h2>
                         </div>
                     </div>
                 </div>
-<br>
-<br>
+
             </div>
         </div>
     </div>
