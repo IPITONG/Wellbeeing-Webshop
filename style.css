@@ -263,7 +263,22 @@ span {
   line-height: 1.5;
   animation: animatetext 5s;
 }
-
+.cart-btn{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #11181A;
+  color: #fff;
+}
+.cart-btn:hover{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #ffc72c;
+  color: #fff;
+}
 .icons-container{
   background: #242F35;
   display: flex;
