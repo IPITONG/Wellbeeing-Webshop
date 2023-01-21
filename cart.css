@@ -273,7 +273,7 @@
   
   @media (max-width: 768px) {
     .col-md-7{
-      padding: none;
+      padding-bottom: 10px;
     }
     
   }
