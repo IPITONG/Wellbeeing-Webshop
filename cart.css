@@ -22,7 +22,6 @@
   html {
     font-size: 100%;
     overflow-x: hidden;
-    background-color: #182024;
   }
   
   html::-webkit-scrollbar {
@@ -41,30 +40,11 @@
     padding: 5rem 10%;
     background-color: #182024;
   }
-  .row{
-    color: white;
-    background-color: #182024;
-  }
-  .col-md-7{
-    color: white;
-    background-color: #182024;
-  }
-  .shopping-cart, .container-fluid{
-    color: white;
-    background-color: #182024;
-  }
-  .col-md-4{
-    color: white;
-    background-color: #182024;
-    border-radius: 10px;
-  }
+  
   span {
     color: #FFC72C;
   }
-  .h2{
-    color: white;
-    background-color: #182024
-  }
+  
   .heading {
     text-align: center;
     margin-bottom: 3rem;
