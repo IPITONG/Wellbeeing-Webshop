@@ -279,38 +279,6 @@ span {
   background: #ffc72c;
   color: #fff;
 }
-.fas fa-share{
-  height: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  width: 50%;
-  background: #11181A;
-  color: #fff;
-}
-.fas fa-share:hover{
-  height: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  width: 50%;
-  background: #ffc72c;
-  color: #fff;
-}
-.fas fa-heart{
-  height: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  width: 50%;
-  background: #11181A;
-  color: #fff;
-}
-.fas fa-heart:hover{
-  height: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  width: 50%;
-  background: #ffc72c;
-  color: #fff;
-}
 .icons-container{
   background: #242F35;
   display: flex;
@@ -330,7 +298,23 @@ span {
   border-radius: 8px;
   border-color: #ffc72c;
 }
-
+.fa-solid, .fas:hover{
+  font-weight: 900;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #ffc72c;
+  color: #fff;
+}
+.fa-solid, .fas{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #11181A;
+  color: #fff;
+}
 .icons-container .icons img{
   height:5rem;
   margin-right: 2rem;
