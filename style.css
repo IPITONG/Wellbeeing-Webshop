@@ -402,8 +402,9 @@ span {
 }
 
 .products .box-container .box .image .icons a:hover{
-  background: #ffc72c;
+background-color: #ffc72c;
   width: 81rem;
+  text-transform: capitalize;
 }
 
 .products .box-container .box .content{

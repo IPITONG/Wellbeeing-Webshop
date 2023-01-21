@@ -190,7 +190,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -206,7 +206,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -238,7 +238,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -286,7 +286,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -302,7 +302,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelmandje</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
@@ -318,7 +318,7 @@ if (isset($_POST['add'])) {
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
                     <div class="icons">
                         <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">Voeg toe aan winkelwagen</a>
+                        <a href="#" class="cart-btn">Toevoegen</a>
                         <a href="#" class="fas fa-share"></a>
                     </div>
                 </div>
