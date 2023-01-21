@@ -106,6 +106,7 @@
     -ms-flex-align: center;
     align-items: center;
     z-index: 1000;
+    border-bottom: color #171E22 15px;
   }
   
   .headerimage {
@@ -175,6 +176,7 @@
   }
   .footer {
     background: #212B30;
+    border-top: color #171E22 15px;
   }
   
   .footer .box-container {

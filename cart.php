@@ -77,6 +77,8 @@ if (isset($_POST['remove'])) {
 
     </header>
     <div class="container-fluid">
+        <br>
+        <br>
         <div class="row px-5">
             <div class="col-md-7">
                 <div class="shopping-cart">
@@ -144,7 +146,8 @@ if (isset($_POST['remove'])) {
                         </div>
                     </div>
                 </div>
-
+<br>
+<br>
             </div>
         </div>
     </div>
