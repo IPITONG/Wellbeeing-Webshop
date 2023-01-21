@@ -390,7 +390,7 @@ span {
   width: 81rem;
   cursor: pointer;
 }
-.products .box-container .box .image .icons a{
+.cart-btn{
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
@@ -399,20 +399,15 @@ span {
   color: #fff;
   cursor: pointer;
 }
-.products .box-container .box .image .icons a:hover{
+.cart-btn:hover{
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  width:100%;
-  background: #FFC72C;
+  width:50%;
+  background: #ffc72c;
   color: #fff;
   cursor: pointer;
 }
-.products .box-container .box .content{
-  padding:2rem;
-  text-align: center;
-}
-
 .products .box-container .box .content h3{
   font-size: 2.5rem;
   color:#fff;
