@@ -1,3 +1,36 @@
+<?php
+
+session_start();
+
+require_once('products.php');
+require_once('createDb.php');
+
+$database = new createDb(dbname: "Productdb", tablename: "Producttb");
+
+if (isset($_POST['add'])) {
+    if (isset($_SESSION['cart'])) {
+        $item_array_id = array_column($_SESSION['cart'], "product_id");
+        if (in_array($_POST['product_id'], $item_array_id)) {
+            echo "<script>alert('Product is al toegevoegd')</script>";
+            echo "<script>window.location = 'Webshop.php'</script>";
+        } else {
+            $count = count($_SESSION['cart']);
+            $item_array = array(
+                'product_id' => $_POST['product_id']
+            );
+            $_SESSION['cart'][$count] = $item_array;
+        }
+    } else {
+        $item_array = array(
+            'product_id' => $_POST['product_id']
+        );
+        $_SESSION['cart'][0] = $item_array;
+        print_r($_SESSION['cart']);
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +70,7 @@
         </nav>
 
         <div class="icons">
-            <div id="account-btn" class="fas fa-cart-plus"></div>
+            <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
             <div id="menu-btn" class="fas fa-bars"></div>
         </div>
     </header>
@@ -144,8 +177,14 @@
         <h1 class="heading"> Onze <span>producten</span> </h1>
 
         <div class="box-container">
+            <?php
+                $result = $database->getData();
+                    while ($row = mysqli_fetch_assoc($result)) {
+                    products($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
+                }
+            ?>
 
-            <div class="box">
+            <!-- <div class="box">
                 <span class="discount">-10%</span>
                 <div class="image">
                     <img src="img/blank-profile-picture-973460_1280.webp" alt="">
@@ -287,7 +326,7 @@
                     <h3>Beehive</h3>
                     <div class="price"> $12.99 <span>$15.99</span> </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
