@@ -59,12 +59,15 @@
   }
   .pt-4, .row, .col-md-6 {
     color: white;
-    background-color: #182024;
+    background-color: #182024 !important;
   }
   span {
     color: #FFC72C;
   }
-  
+  .h2{
+    color: white;
+    background-color: #182024
+  }
   .heading {
     text-align: center;
     margin-bottom: 3rem;
