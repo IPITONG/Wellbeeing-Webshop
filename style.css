@@ -367,13 +367,32 @@ span {
   border-right: .1rem solid #fff;
   width: 81rem;
   text-transform: capitalize;
+  
 }
 
 .products .box-container .box .image .icons a:hover{
   background: #ffc72c;
   width: 81rem;
+  cursor: pointer;
 }
-
+.products .box-container .box .image .icons a{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width:50%;
+  background: #11181A;
+  color: #fff;
+  cursor: pointer;
+}
+.products .box-container .box .image .icons a:hover{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width:100%;
+  background: #FFC72C;
+  color: #fff;
+  cursor: pointer;
+}
 .products .box-container .box .content{
   padding:2rem;
   text-align: center;
