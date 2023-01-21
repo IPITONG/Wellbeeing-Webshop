@@ -22,6 +22,7 @@
   html {
     font-size: 100%;
     overflow-x: hidden;
+    background-color: #182024;
   }
   
   html::-webkit-scrollbar {
@@ -56,10 +57,6 @@
     color: white;
     background-color: #182024;
     border-radius: 10px;
-  }
-  .pt-4, .row, .col-md-6 {
-    color: white;
-    background-color: #182024 !important;
   }
   span {
     color: #FFC72C;
