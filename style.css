@@ -300,7 +300,7 @@ span {
   border-radius: 8px;
   border-color: #ffc72c;
 }
-.fa-solid, .fas:hover{
+.icons{
   font-weight: 900;
   height: 5rem;
   line-height: 5rem;
@@ -310,7 +310,7 @@ span {
   color: #fff;
   cursor: pointer
 }
-.fa-solid, .fas{
+.icons{
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
