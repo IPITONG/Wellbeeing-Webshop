@@ -23,6 +23,7 @@ if (isset($_POST['remove'])) {
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="cart.css">
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -34,57 +35,46 @@ if (isset($_POST['remove'])) {
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="cart.css">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180"
+    href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+    href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+    href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-16x16.png">
+    <title> Wellbeeing Webshop</title>
+    <script src="https://kit.fontawesome.com/4b14647f69.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
 </head>
 
 <body class="bg-light">
     <header>
-        <img class="logo"
-            src="https://blightningpower.github.io/Wellbeeing_webshop/img/Logo%20wellbeeing%207.0%20-%20cut.png"
-            alt="Wellbeeinglogo">
-        <h1 class="WellbeeingHeaderTitle"><span class="WellbeeingTitleWord">Wellbeeing</span>Webshop</h1>
-        <!--Navigation searchbar-->
-        <div class="searchbar">
-            <label>
-                <input class="searchBarfield" type="text" placeholder="Zoeken..">
-                <img class="searchBarIcon" src="https://i484476.hera.fhict.nl/OPP_Webshop/Public/img/searchbarIcon.png"
-                    alt="searchBarIcon">
-            </label>
+         <!-- header section starts  -->
+
+    <header class="header">
+        <img class="headerimage" src="img/Logo wellbeeing 7.0 - cut.png">
+        <a href="#" class="logo"> Well<span>bee</span>ing Webshop.</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html" target="_blank">WEBSITE</a>
+            <a href="#home">HOME</a>
+            <a href="#about">OVER ONS</a>
+            <a href="#products">PRODUCTEN</a>
+            <a href="#review">REVIEWS</a>
+            <a href="#contact">CONTACT</a>
+
+        </nav>
+
+        <div class="icons">
+            <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
         </div>
-
-
-        <div class="navbarButton">
-            <a href="../html/index.html">Website</a>
-            <a href="homepage.php">Webshop</a>
-            <a href="signUp.php">Aanmelden</a>
-            <a href="logIn.php">Inloggen</a>
-        </div>
-
-        <!--Navigation shoppingcart-->
-        <a href="cart.php" class="shoppingCartButton"><img class="shoppingCartImage"
-                src="https://i484476.hera.fhict.nl/OPP_Webshop/Public/img/shoppingCartIcon.png" alt="ShoppingCart" />
-            <h5 class="px-5 cart">
-                <i class="fas fa-shopping-cart"></i> Winkelmand
-                <?php
-
-                if (isset($_SESSION['cart'])) {
-                    $count = count($_SESSION['cart']);
-                    echo "<span id=\"cart_count\" class=\"text-warning bg-light\">$count</span>";
-                } else {
-                    echo "<span id=\"cart_count\" class=\"text-warning bg-light\">0</span>";
-                }
-
-                ?>
-            </h5>
-        </a>
-        <div class="navHeader">
-            <a href="#">Alle producten</a>
-            <a href="#">Smart Beehives</a>
-            <a href="#">Bloemenzaden</a>
-            <a href="#">Honing</a>
-        </div>
+    </header>
+    <!-- header section ends -->
 
     </header>
     <h2>Winkelmand</h2>
@@ -95,7 +85,7 @@ if (isset($_POST['remove'])) {
                     <h2>Winkelmand</h2>
                     <hr>
 
-                    <?php
+                     <?php
 
                     $total = 0;
                     if (isset($_SESSION['cart'])) {
@@ -143,10 +133,10 @@ if (isset($_POST['remove'])) {
                             <h6>Totale kosten</h6>
                         </div>
                         <div class="col-md-6">
-                            <h6>€ <?php echo $total; ?></h6>
+                            <h6>€ <?php echo $total; ?> </h6>
                             <h6 class="text-success">GRATIS</h6>
                             <hr>
-                            <h6>€ <?php
+                             <h6>€ <?php
                             echo $total;
                             ?></h6>
                             <br>
@@ -160,6 +150,53 @@ if (isset($_POST['remove'])) {
             </div>
         </div>
     </div>
+    
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="scroll-down" onclick="scroll"></div>
+            <div class="box">
+                <h3> </i> Wellbeeing </h3>
+                <p>Bavli, Stan, Allert, Daniel, Semmy.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>navigatie links</h3>
+                <a href="#home" class="link">home</a>
+                <a href="#about" class="link">over ons</a>
+                <a href="#products" class="link">producten</a>
+                <a href="#contact" class="link">contact</a>
+            </div>
+        </div>
+        <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
+
+        <img src="img/payment.png" alt="">
+
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script>
+        let navbar = document.querySelector('.header .navbar')
+
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.add('active');
+        }
+
+        document.querySelector('#close-navbar').onclick = () => {
+            navbar.classList.remove('active');
+        };
+
+    </script>
+
 </body>
 
 </html>
