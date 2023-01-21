@@ -76,7 +76,6 @@ if (isset($_POST['remove'])) {
     <!-- header section ends -->
 
     </header>
-    <h2>Winkelmand</h2>
     <div class="container-fluid">
         <div class="row px-5">
             <div class="col-md-7">
