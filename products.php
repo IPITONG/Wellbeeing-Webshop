@@ -44,7 +44,7 @@ function cartProducts($productimg, $productname, $productprice, $productid)
                     <div class=\"border rounded\">
                         <div class=\"row bg-white\">
                             <div class=\"col-md-3 pl-0\">
-                                <img src=$productimg alt=\"Image1\" class=\"img-fluid\">
+                                <img src=\"$productimg\" alt=\"Image1\" class=\"img-fluid\">
                             </div>
                             <div class=\"col-md-6\">
                                 <h5 class=\"pt-2\">$productname</h5>
