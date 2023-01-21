@@ -11,10 +11,8 @@ function products($productname, $productprice, $productimage, $productid)
                 <div class=\"image\">
                     <img src=\"$productimage\">
                     <div class=\"icons\">
-                        <button class=\"fas fa-heart\"></button>
                         <button class=\"cart-btn\" name=\"add\">Toevoegen</button>
                         <input type='hidden' name='product_id' value='$productid'>
-                        <button class=\"fas fa-share\"></button>
                     </div>
                 </div>
                 <div class=\"content\">
