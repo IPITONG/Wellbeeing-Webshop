@@ -308,6 +308,7 @@ span {
   width: 80%;
   background: #ffc72c;
   color: #fff;
+  cursor: pointer
 }
 .fa-solid, .fas{
   height: 5rem;
@@ -316,6 +317,7 @@ span {
   width: 80%;
   background: #11181A;
   color: #fff;
+  cursor: pointer;
 }
 .icons-container .icons img{
   height:5rem;
