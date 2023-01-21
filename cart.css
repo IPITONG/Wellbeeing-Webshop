@@ -40,11 +40,27 @@
     padding: 5rem 10%;
     background-color: #182024;
   }
-  .body{
+  .row{
     color: white;
     background-color: #182024;
   }
-  
+  .col-md-7{
+    color: white;
+    background-color: #182024;
+  }
+  .shopping-cart, .container-fluid{
+    color: white;
+    background-color: #182024;
+  }
+  .col-md-4{
+    color: white;
+    background-color: #182024;
+    border-radius: 10px;
+  }
+  .pt-4, .row, .col-md-6 {
+    color: white;
+    background-color: #182024;
+  }
   span {
     color: #FFC72C;
   }

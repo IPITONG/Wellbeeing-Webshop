@@ -49,7 +49,7 @@ if (isset($_POST['remove'])) {
     <meta name="HandheldFriendly" content="true">
     
 </head>
-<body>
+<body class="bg-light">
     <header>
          <!-- header section starts  -->
 
