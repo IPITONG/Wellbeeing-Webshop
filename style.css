@@ -279,6 +279,38 @@ span {
   background: #ffc72c;
   color: #fff;
 }
+.fas fa-share{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #11181A;
+  color: #fff;
+}
+.fas fa-share:hover{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #ffc72c;
+  color: #fff;
+}
+.fas fa-heart{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #11181A;
+  color: #fff;
+}
+.fas fa-heart:hover{
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: #ffc72c;
+  color: #fff;
+}
 .icons-container{
   background: #242F35;
   display: flex;
