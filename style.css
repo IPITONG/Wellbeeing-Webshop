@@ -674,6 +674,8 @@ margin-top: 6px;
 #account-btn{
   margin-left: 0.92rem;
   height: 4vh;
+  text-decoration: none;
+  color: white;
 }
 
 @keyframes animatetext {
