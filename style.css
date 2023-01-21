@@ -413,7 +413,7 @@ span {
 .products .box-container .box .image .icons .cart-btn{
   border-left: .1rem solid #fff;
   border-right: .1rem solid #fff;
-  width: 81rem;
+  width: 200rem;
   text-transform: capitalize;
 }
 
