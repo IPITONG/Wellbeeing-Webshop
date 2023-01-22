@@ -67,11 +67,6 @@ if (isset($_POST['remove'])) {
             <a href="#contact">CONTACT</a>
 
         </nav>
-
-        <div class="icons">
-            <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </div>
     </header>
     <!-- header section ends -->
 
