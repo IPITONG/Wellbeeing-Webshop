@@ -594,6 +594,7 @@ margin-top: 6px;
 }
 .dedee{
   padding-bottom: 10%;
+  font-size: 2rem;
 }
 :host, :root {
   --fa-style-family-classic: "Font Awesome 6 Free";
