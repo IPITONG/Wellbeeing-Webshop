@@ -141,7 +141,7 @@ if (isset($_POST['remove'])) {
                             echo $total;
                             ?></h6>
                             <br>
-                            <a href="thankyou.php" button type="submit" class="btn btn-success mx-2" name="bestellen">Bestellen</button></a>
+                            <a href="thankyou.html" button type="submit" class="btn btn-success mx-2" name="bestellen">Bestellen</button></a>
                             <h2> <br>
     <br></h2>
                         </div>
