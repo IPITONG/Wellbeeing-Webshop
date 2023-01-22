@@ -42,7 +42,8 @@
             <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
             <div id="menu-btn" class="fas fa-bars"></div>
         </div>
-    </header>
+    </header
+    
                 <?php
 
                 if (isset($_SESSION['cart'])) {
@@ -52,27 +53,12 @@
                     echo "<span id=\"cart_count\" class=\"text-warning bg-light\">0</span>";
                 }
 
-                ?>
-            </h5>
-        </a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+                ?>>
+            <section class="dedee">
     <h2>Bedankt voor uw bestelling!</h2>
-    <br>
-    <br>
-    <br>
-    <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
+    <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
+</section>
     <!-- footer section starts  -->
 
     <section class="footer">

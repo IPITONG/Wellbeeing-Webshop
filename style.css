@@ -591,7 +591,15 @@ margin-right: -158px;
 float: left;
 width: 75%;
 margin-top: 6px;
-
+}
+.dedee{
+  padding-bottom: 10%;
+}
+:host, :root {
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1"Font Awesome 6 Free";
+  background-color: #171e22;
+  color: white;
 }
 .footer {
   background: #212B30;
