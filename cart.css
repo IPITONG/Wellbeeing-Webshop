@@ -250,7 +250,6 @@
   
   #account-btn{
     margin-left: 0.92rem;
-    height: 4vh;
     text-decoration: none;
     color:white;
   }
@@ -446,3 +445,12 @@
       font-size: 4rem;
     }
   }
+    @media (max-width: 768px) {
+      #accountbutton{
+        height: 4vh;
+        margin-left: 0.92rem;
+        text-decoration: none;
+        color: white;
+  
+      }
+    }
