@@ -6,27 +6,21 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bedankt!</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body class="bg-light">
-    <head>
     <link rel="apple-touch-icon" sizes="180x180"
         href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32"
         href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
         href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-16x16.png">
-    <title> Wellbeeing Webshop</title>
     <script src="https://kit.fontawesome.com/4b14647f69.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css">
-
+    <title>Bedankt!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="bg-light">
 
     <!-- header section starts  -->
 
