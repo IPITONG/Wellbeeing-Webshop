@@ -433,9 +433,6 @@ span {
   flex-wrap: wrap;
   gap:1.5rem;
 }
-h2{
-font-size: 1.5rem;
-}
 .review .box-container .box{
   flex:1 1 30rem;
   box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
