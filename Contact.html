@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/favicon-16x16.png">
+  <link rel="stylesheet" href="Contact.css">
+  <title> Wellbeeing.</title>
+  <script src="https://kit.fontawesome.com/4b14647f69.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+</head>
+
+<body>
+  <header class="header">
+    <img class="headerimage" src="./img/Logo wellbeeing 7.0 - cut.png">
+    <a href="#" class="logo"> Well<span>bee</span>ing</a>
+
+    <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="index.html">HOME</a>
+      <a href="Projecten.html">PROJECTEN</a>
+      <a href="Webshop.php">WEBSHOP</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <h1><span>Contact</span></h1>
+    <form action="https://formsubmit.co/511976@student.fontys.nl" method="POST">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Naam:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Uw naam..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Achternaam:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Uw achternaam..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Land:</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="nederland">Nederland</option>
+            <option value="duitsland">Duitsland</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Onderwerp:</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Onderwerp.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Verstuur">
+      </div>
+    </form>
+  </div>
+
+  <section class="footer">
+
+    <div class="box-container">
+      <div class="box">
+        <h3> Wellbeeing </h3>
+        <p>Bavli, Stan, Allert, Dani&euml;l, Semmy.</p>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3>navigatie links</h3>
+        <a href="index.html" class="link">Home</a>
+        <a href="Projecten.html" class="link">Projecten</a>
+        <a href="Webshop.php" class="link">Webshop</a>
+        <a href="contact.html" class="link">Contact</a>
+      </div>
+    </div>
+    <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 © </div>
+
+  </section>
+</body>
+<script>
+  let navbar = document.querySelector('.header .navbar')
+
+  document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.add('active');
+  }
+
+  document.querySelector('#close-navbar').onclick = () => {
+    navbar.classList.remove('active');
+  };
+</script>
+</html>

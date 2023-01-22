@@ -12,7 +12,6 @@
 </head>
 
 <body class="bg-light">
-    <header>
     <head>
     <link rel="apple-touch-icon" sizes="180x180"
         href="https://i484476.hera.fhict.nl/Wellbeeing%20webshop/img/apple-touch-icon.png">
@@ -68,9 +67,20 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
     <h2>Bedankt voor uw bestelling!</h2>
     <br>
+    <br>
+    <br>
     <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 <section class="footer">
@@ -89,10 +99,10 @@
             </div>
             <div class="box">
                 <h3>navigatie links</h3>
-                <a href="#home" class="link">home</a>
-                <a href="#about" class="link">over ons</a>
-                <a href="#products" class="link">producten</a>
-                <a href="#contact" class="link">contact</a>
+                <a href="#home" class="link">Home</a>
+                <a href="#about" class="link">Over ons</a>
+                <a href="#products" class="link">Producten</a>
+                <a href="#contact" class="link">Contact</a>
             </div>
         </div>
         <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>

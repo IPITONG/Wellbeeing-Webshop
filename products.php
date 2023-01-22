@@ -17,7 +17,7 @@ function products($productname, $productprice, $productimage, $productid)
                 </div>
                 <div class=\"content\">
                     <h3>$productname</h3>
-                    <div class=\"price\"> € $productprice <span> €15.99</span> </div>
+                    <div class=\"price\"> € $productprice </div>
                 </div>
             </div>
         </form>";
