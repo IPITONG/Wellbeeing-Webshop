@@ -82,7 +82,7 @@ if (isset($_POST['remove'])) {
         <div class="row px-5">
             <div class="col-md-7">
                 <div class="shopping-cart">
-                    <h2>Winkelmand</h2>
+                    <h1>Winkelmand</h1>
                     <hr>
 
                      <?php
@@ -101,7 +101,7 @@ if (isset($_POST['remove'])) {
                             }
                         }
                     } else {
-                        echo "<h5>Winkelmand is leeg</h5>";
+                        echo "<h2>Winkelmand is leeg</h2>";
                     }
 
                     ?>
@@ -120,30 +120,30 @@ if (isset($_POST['remove'])) {
                             if (isset($_SESSION['cart'])) {
                                 $count = count($_SESSION['cart']);
                                 if ($count == 1) {
-                                    echo "<h6>Prijs ($count product)</h6>";
+                                    echo "<h2>Prijs ($count product)</h2>";
                                 }
                                 if ($count > 1) {
-                                    echo "<h6>Prijs ($count producten)</h6>";
+                                    echo "<h2>Prijs ($count producten)</h2>";
                                 }
                             } else {
-                                echo "<h6>Prijs (0 producten)</h6>";
+                                echo "<h2>Prijs (0 producten)</h2>";
                             }
                             ?>
-                            <h6>Verzendkosten</h6>
+                            <h2>Verzendkosten</h2>
                             <hr>
-                            <h6>Totale kosten</h6>
+                            <h2>Totale kosten</h2>
                         </div>
                         <div class="col-md-6">
-                            <h6>€ <?php echo $total; ?> </h6>
-                            <h6 class="text-success">GRATIS</h6>
+                            <h2>€ <?php echo $total; ?> </h2>
+                            <h2 class="text-success">GRATIS</h2>
                             <hr>
-                             <h6>€ <?php
+                             <h2>€ <?php
                             echo $total;
-                            ?></h6>
+                            ?></h2>
                             <br>
                             <a href="thankyou.html" button type="submit" class="btn btn-success mx-2" name="bestellen">Bestellen</button></a>
-                            <h2> <br>
-    <br></h2>
+                            <h2>
+                            <br>
                         </div>
                     </div>
                 </div>

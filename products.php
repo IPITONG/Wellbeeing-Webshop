@@ -47,9 +47,9 @@ function cartProducts($productimg, $productname, $productprice, $productid)
                                 <img src=\"$productimg\" alt=\"Image1\" class=\"img-fluid\">
                             </div>
                             <div class=\"col-md-6\">
-                                <h5 class=\"pt-2\">$productname</h5>
+                                <h2 class=\"pt-2\">$productname</h2>
                                 <br>
-                                <h5 class=\"pt-2\">€ $productprice</h5>
+                                <h2 class=\"pt-2\">€ $productprice</h2>
                                 <br>
                                 <button type=\"submit\" class=\"btn btn-danger mx-2\" name=\"remove\">Verwijder</button>
                             </div>
