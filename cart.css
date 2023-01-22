@@ -89,7 +89,24 @@ span {
   transition: 0.01s;
 }
 
-
+.h2, h2{
+  font-size: 1.5rem
+}
+.h5, h5{
+  font-size: 1.5rem
+}
+.h1, h1{
+  font-size: 1.5rem
+}
+.h6, h6{
+  font-size: 1.5rem
+}
+.text-success{
+  font-size: 1.5rem;
+}
+.btn-success{
+  font-size: 1.5rem;
+}
 .header {
   position: -webkit-sticky;
   position: sticky;
