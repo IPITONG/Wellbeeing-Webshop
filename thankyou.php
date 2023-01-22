@@ -42,32 +42,7 @@
             <div><a href="cart.php" id="account-btn" class="fas fa-cart-plus"></a></div>
             <div id="menu-btn" class="fas fa-bars"></div>
         </div>
-    </header>
-    <section class="footer">
-
-<div class="box-container">
-    <div class="scroll-down" onclick="scroll"></div>
-    <div class="box">
-        <h3> </i> Wellbeeing </h3>
-        <p>Bavli, Stan, Allert, Daniel, Semmy.</p>
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
-    </div>
-    <div class="box">
-        <h3>navigatie links</h3>
-        <a href="#home" class="link">Home</a>
-        <a href="#about" class="link">Over ons</a>
-        <a href="#products" class="link">Producten</a>
-        <a href="#contact" class="link">Contact</a>
-    </div>
-</div>
-<div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
-<img src="img/payment.png" alt="">
-</section>
+   
                 <?php
 
                 if (isset($_SESSION['cart'])) {
@@ -91,6 +66,14 @@
     <br>
     <br>
     <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </header>
+    <!-- footer section starts  -->
 
     <section class="footer">
 
@@ -115,9 +98,13 @@
             </div>
         </div>
         <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
-        <img src="img/payment.png" alt="">
-        </section>
 
+        <img src="img/payment.png" alt="">
+
+
+    </section>
+
+    <!-- footer section ends -->
 
         <script>
         let navbar = document.querySelector('.header .navbar')
