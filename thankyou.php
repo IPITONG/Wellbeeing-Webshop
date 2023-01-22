@@ -20,8 +20,8 @@
     <title>Bedankt!</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
-
+<div class="bg-light">
+<body>
     <!-- header section starts  -->
 
     <header class="header">
