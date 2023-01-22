@@ -674,6 +674,7 @@ margin-top: 6px;
   margin-left: 0.92rem;
   text-decoration: none;
   color: white;
+  height: 2.5vh;
 }
 
 @keyframes animatetext {
@@ -861,7 +862,7 @@ margin-top: 6px;
   @media (max-width: 768px) {
     #accountbutton{
       height: 4vh;
-      margin-left: 0.92rem;
+      margin-left: -0.4rem;
       text-decoration: none;
       color: white;
 
