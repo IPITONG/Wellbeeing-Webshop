@@ -66,12 +66,7 @@
     <br>
     <br>
     <a href="Webshop.php" button type="submit" class="btn btn-primary mx-2" name="terug">Terug naar webshop</button></a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <section class="footer">
 
         <div class="box-container">
