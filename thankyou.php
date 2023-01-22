@@ -81,9 +81,7 @@
     <br>
     <br>
     <br>
-</body>
-
-<section class="footer">
+    <section class="footer">
 
         <div class="box-container">
             <div class="scroll-down" onclick="scroll"></div>
@@ -108,6 +106,9 @@
         <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
 
         <img src="img/payment.png" alt="">
+</body>
+
+
         <script>
         let navbar = document.querySelector('.header .navbar')
 
