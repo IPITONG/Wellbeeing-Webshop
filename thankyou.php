@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,6 @@
     <meta name="HandheldFriendly" content="true">
     <link rel="stylesheet" href="style.css">
     <title>Bedankt!</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <div class="bg-light">
 <body>
@@ -96,9 +95,8 @@
             </div>
         </div>
         <div class="credit"> gemaakt door <span>Semmy Verdonschot</span> | Wellbeeing. 2023 </div>
-
         <img src="img/payment.png" alt="">
-</body>
+        </section>
 
 
         <script>
@@ -114,4 +112,4 @@
 
     </script>
 
-    </section>
+    </body>
